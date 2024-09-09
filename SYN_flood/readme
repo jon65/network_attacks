@@ -1,0 +1,9 @@
+Form of DDOS
+
+In this task, we will explore SYN flood and RST (reset) attacks.SYN Flood AttacksSYN
+flood is a form of DoS attack in which attackers send many SYN requests to a victim’s TCP
+port, but the attackers have no intention to finish the 3-way handshake procedure. Attackers
+either use spoofed IP address or do not continue the procedure. Through this attack, attackers
+can flood the victim’s queue that is used for half-opened connections, i.e. the connections that
+has finished SYN, SYN-ACK, but has not yet got a final ACK back. When this queue is full,
+the victim cannot take any more connection.
